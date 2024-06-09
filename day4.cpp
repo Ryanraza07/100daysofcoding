@@ -3,7 +3,6 @@
 class Solution {
   public:
     long long seriesSum(int n) {
-        // Using the formula to calculate the sum of the first n natural numbers
         return static_cast<long long>(n) * (n + 1) / 2;
     }
 };
